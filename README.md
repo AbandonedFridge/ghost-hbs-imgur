@@ -23,11 +23,7 @@ dev.
 
 Remember to use triple braces so Handlebars doesn't escape the HTML output.
 
-**Embedding a Post**
-`{{{imgur "<postId>"}}}`
-
-**Embedding an Album**
-`{{{imgur "a/<albumId>"}}}`
+`{{{imgur "<image or album id>"}}}`
 
 ## References
 https://github.com/TryGhost/Ghost/wiki/Apps-Getting-Started-for-Ghost-Devs
