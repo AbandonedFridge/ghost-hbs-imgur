@@ -7,7 +7,8 @@ var GhostHbsImgur = App.extend({
   },
 
   imgurHandler: function(id) {
-    return '<blockquote class="imgur-embed-pub" lang="en" data-id="' + id + '"><a href="//imgur.com/' + id + '">What?</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>';
+    id = id.len == 5 ? 'a/' : '' + id;
+    return '<blockquote class="imgur-embed-pub" lang="en" data-id="' + id + '"><a href="//imgur.com/' + id + '">View on imgur</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>';
   }
 
 });
