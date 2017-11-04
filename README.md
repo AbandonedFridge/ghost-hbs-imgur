@@ -4,6 +4,7 @@
 --------
 **Note:** A different version of this plugin that works on posts/pages lives at:
 https://github.com/unfairsurprisery/ghost-md-imgur
+
 --------
 
 Not particularly useful. Only works in templates, not in posts/pages. Just threw
