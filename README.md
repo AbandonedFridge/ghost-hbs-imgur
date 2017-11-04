@@ -1,5 +1,5 @@
 # ghost-hbs-imgur
-## Imgur embedding in (https://ghost.org)[Ghost] templates
+**Imgur embedding in (https://ghost.org)[Ghost] templates**
 
 ------
 **Note:** A different version of this plugin that works on posts/pages lives at:
